@@ -532,7 +532,7 @@ func handleConnection(conn net.Conn) {
 }
 
 func main() {
-	fmt.Println("Starting ISO 8583 server...")
+	fmt.Println("Starting ISO 8583 server oke...")
 
 	// Listen on port 8888
 	listener, err := net.Listen("tcp", ":8888")
